@@ -55,3 +55,51 @@ img, svg {
     font-style: italic;
     color: #008AFF;
 }
+
+.footer {
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.footer li a {
+    text-decoration: none;
+    padding: 1px;
+    margin: 2px;
+}
+
+.footer li :hover {
+    background-color: black;
+}
+
+.footer__socialNetworks a {
+    color: white;
+    height: 48px;   
+    width: 48px;
+    list-style-type: none;
+    border-radius: 50%;
+    margin: 0 20px;
+    transition: transform 0, 5s;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.footer__socialNetworks a:hover {
+    transform: scale(1.2);
+    color: #008AFF;
+    background-color: black;
+}
+
+/* index html */
+
+body {
+    background-color: black;
+}
+
+.container, .container-lg, .container-md, .container-sm {
+    height: 500px;
+}
+
+/* .carousel-inner .carousel-item img {
+    width:340px; 
+    height:340px;
+} */
