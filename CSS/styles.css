@@ -2,4 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+.logo {
+    position: relative;
+    top: 4.5vh; left: 26px;
+}
+
+img, svg {
+    width: 20vh;
+}
+
+.tituloHeader {
+    color: white;
+    position: relative;
+    top: 9vh; left: 50px;
+}
+
+.h1, h1 {
+    font-size: 10vh;
+    font-weight: bolder;
+}
+
+.menuHeader {
+    position: relative;
+    top: 11.5vh; left: 20px;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.menuHeader ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menuHeader li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.menuHeader li :hover {
+    font-style: italic;
+    color: #008AFF;
 }
