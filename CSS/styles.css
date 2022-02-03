@@ -5,8 +5,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/* header todas las html */
+
 header {
     background-color: black;
+    height: 150px;
 }
 
 .logo {
@@ -24,14 +27,14 @@ img, svg {
     top: 9vh; left: 50px;
 }
 
-.h1, h1 {
+.h2, h2 {
     font-size: 10vh;
     font-weight: bolder;
 }
 
 .menuHeader {
     position: relative;
-    top: 11.5vh; left: 20px;
+    top: 13vh; left: 20px;
     list-style-type: none;
     padding: 10px;
     margin: 0 10px;
@@ -47,8 +50,8 @@ img, svg {
 .menuHeader li a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
-    margin-left: 10px;
+    font-size: 25px;
+    margin: 15px;
 }
 
 .menuHeader li :hover {
@@ -56,34 +59,40 @@ img, svg {
     color: #008AFF;
 }
 
-.footer {
-    list-style-type: none;
-    justify-content: flex-end;
-}
+/* main todas las html */
 
-.footer li a {
-    text-decoration: none;
-    padding: 1px;
-    margin: 2px;
-}
-
-.footer li :hover {
+main {
     background-color: black;
+    height: 500px;
 }
 
-.footer__socialNetworks a {
+h1 {
+    font-size: 32px;
+    font-style: none;
     color: white;
-    height: 48px;   
-    width: 48px;
-    list-style-type: none;
-    border-radius: 50%;
-    margin: 0 20px;
-    transition: transform 0, 5s;
-    font-size: 2rem;
-    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
-.footer__socialNetworks a:hover {
+/* footer todas las html */
+
+.footer {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    text-align: end;
+}
+
+.footerIconos{
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.footerIconos:hover {
     transform: scale(1.2);
     color: #008AFF;
     background-color: black;
@@ -91,15 +100,238 @@ img, svg {
 
 /* index html */
 
-body {
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 40%;
+    height: auto;
+    margin-top: 40px;
+}
+
+/* recipes html */
+
+.bodyRecipes {
     background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-.container, .container-lg, .container-md, .container-sm {
-    height: 500px;
+.fondoRecipes {
+    background-image: url("../img/fondoRecipes.jpg");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-/* .carousel-inner .carousel-item img {
-    width:340px; 
-    height:340px;
-} */
+.sectionRecetas {
+    display: flex;
+    align-items: stretch;
+    margin: 40px;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center
+}
+
+.tartas {
+    display: flex;
+}
+
+.muffins {
+    display: flex;
+}
+
+/* special occasions html */
+
+.bodyNews{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fondoNews {
+    background-image: url("../img/fondoNews.jpg");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sectionNews {
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    padding: 35px;
+}
+
+.sectionNews h3 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.divFiestas {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.divFiestas img {
+    padding: 10px;
+}
+
+.divFiestas ul {
+    margin: 10px;
+    padding: 10px;
+}
+
+.divEventos {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.divEventos img {
+    padding: 10px;
+}
+
+.divEventos ul {
+    margin: 10px;
+    padding: 10px;
+}
+
+.divSemanales {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.divSemanales img {
+    padding: 10px;
+}
+
+.divSemanales ol {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* about us html */
+
+.bodyAbout {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fondoAbout {
+    background-image: url("../img/fondoAbout.jpg");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sectionAbout {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px;
+    padding: 30px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.imgAbout {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* contact html */
+
+.bodyContact {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fondoContact {
+    background-image: url("../img/fondoContact.jpg");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario input {
+    width: 450px;
+    height: 50px;
+    margin: 20px;
+    padding: 13px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.formulario textarea {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    width: 450px;
+    height: 200px;
+    margin: 20px;
+    padding: 13px;
+}
+
+#buttonFormulario{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    width: 90px;
+    top: 10px 20px;
+    left: 91%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+#buttonFormulario:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
