@@ -100,6 +100,16 @@ h1 {
 
 /* index html */
 
+.fondoIndex {
+    background-image: url("../img/fondoIndex.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
 .flex{
     display:flex;
     justify-content: center;
@@ -123,16 +133,17 @@ h1 {
 
 .fondoRecipes {
     background-image: url("../img/fondoRecipes.jpg");
-    background-size: 90%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 .sectionRecetas {
     display: flex;
     align-items: stretch;
-    margin: 40px;
-    padding: 30px;
     justify-content: space-evenly;
     align-content: flex-end;
     flex-direction: column;
@@ -164,74 +175,25 @@ h3 {
     background-position: center;
 }
 
-.fondoNews {
-    background-image: url("../img/fondoNews.jpg");
-    background-size: 90%;
+.fondoSpecial {
+    background-image: url("../img/fondoSpecial.jpg");
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
-.sectionNews {
+.sectionSpecial {
     display: flex;
-    flex-direction: column;
-    margin: 35px;
-    padding: 35px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.sectionNews h3 {
-    margin: 5px;
-    padding: 5px;
-}
-
-.divFiestas {
-    display: flex;
-    margin: 5px;
-    padding: 10px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.divFiestas img {
-    padding: 10px;
-}
-
-.divFiestas ul {
-    margin: 10px;
-    padding: 10px;
-}
-
-.divEventos {
-    display: flex;
-    margin: 5px;
-    padding: 10px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.divEventos img {
-    padding: 10px;
-}
-
-.divEventos ul {
-    margin: 10px;
-    padding: 10px;
-}
-
-.divSemanales {
-    display: flex;
-    margin: 5px;
-    padding: 10px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.divSemanales img {
-    padding: 10px;
-}
-
-.divSemanales ol {
-    margin: 10px;
-    padding: 10px;
+.card-body .card-text {
+    color: black;
+    text-align: center;
 }
 
 /* about us html */
@@ -246,9 +208,12 @@ h3 {
 
 .fondoAbout {
     background-image: url("../img/fondoAbout.jpg");
-    background-size: 90%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 .sectionAbout {
@@ -284,9 +249,12 @@ p {
 
 .fondoContact {
     background-image: url("../img/fondoContact.jpg");
-    background-size: 90%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 .formulario {
