@@ -70,7 +70,7 @@ h1 {
     font-size: 32px;
     font-style: none;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 138, 255, 0.5);
     text-align: center;
 }
 
@@ -79,6 +79,7 @@ h1 {
 .footer {
     width: 100%;
     height: 10vh;
+    padding-right: 10vh;
     background-color: black;
     text-align: end;
 }
@@ -88,6 +89,7 @@ h1 {
     color: white;
     border-radius: 50%;
     margin: 0 5px;
+    margin-top: 2vh;
     width: 30px;
     height: 30px;
 }
@@ -119,6 +121,16 @@ h1 {
     width: 40%;
     height: auto;
     margin-top: 40px;
+}
+
+.carousel-inner {
+    border: white solid 20px;
+    /* border-radius: 5%; */
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
 }
 
 /* recipes html */
