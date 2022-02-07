@@ -119,18 +119,30 @@ h1 {
 }
 
 .carousel {
-    width: 40%;
+    width: 100vh;
     height: auto;
-    margin-top: 40px;
+    margin-top: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .carousel-inner {
-    border: white solid 20px;
+    border: white solid 15px;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 4rem;
     height: 4rem;
+    /* background-color: black; */
+}
+
+.h5, h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    color: white;
+    text-shadow: 4px 4px 4px #000000;
 }
 
 /* recipes html */
@@ -162,9 +174,9 @@ h1 {
 }
 
 h3 {
-    
     font-weight: bold;
-    color: white;
+    font-size: 1.5  em;
+    color: #008AFF;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center
 }
@@ -197,7 +209,8 @@ h3 {
 
 div .card {
     margin-top: 1.5vh;
-    border: white solid 20px;
+    border: white solid 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card {
@@ -207,6 +220,7 @@ div .card {
 .card-title {
     color: white;
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .card-body .card-text {
@@ -214,6 +228,7 @@ div .card {
     text-align: center;
     font-size: 1em;
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .btn-primary {
@@ -221,6 +236,7 @@ div .card {
     background-color: #008AFF;
     border-color: #008AFF;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* about us html */
@@ -261,7 +277,8 @@ p {
 
 .imgAbout {
     width: 60vh;
-    border: white solid 20px;
+    border: white solid 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* contact html */
@@ -314,6 +331,7 @@ p {
     border-radius: 10px;
     color: white;
     background-color: rgba(0, 138, 255, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
 
