@@ -69,6 +69,7 @@ main {
 h1 {
     font-size: 1.5em;
     font-style: none;
+    font-weight: bold;
     color: white;
     background-color: rgba(0, 138, 255, 0.5);
     text-align: center;
@@ -125,7 +126,6 @@ h1 {
 
 .carousel-inner {
     border: white solid 20px;
-    /* border-radius: 5%; */
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -162,7 +162,7 @@ h1 {
 }
 
 h3 {
-    font-size: 25px;
+    
     font-weight: bold;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
@@ -178,14 +178,6 @@ h3 {
 }
 
 /* special occasions html */
-
-.bodyNews{
-    background-color: black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 
 .fondoSpecial {
     background-image: url("../img/fondoSpecial.jpg");
@@ -203,9 +195,32 @@ h3 {
     justify-content: space-evenly;
 }
 
-.card-body .card-text {
-    color: black;
+div .card {
+    margin-top: 1.5vh;
+    border: white solid 20px;
+}
+
+.card {
+    background-color: rgba(0, 138, 255, 0.5)
+}
+
+.card-title {
+    color: white;
     text-align: center;
+}
+
+.card-body .card-text {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #008AFF;
+    border-color: #008AFF;
+    align-items: center;
 }
 
 /* about us html */
